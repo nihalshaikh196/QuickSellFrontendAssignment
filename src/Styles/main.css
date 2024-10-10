@@ -1,0 +1,23 @@
+.board {
+    margin-top: 50px;
+    display: flex;
+    background-color: #F4F5F7;
+    padding: 16px;
+    overflow-x: auto;
+    min-height: calc(100vh - 82px);
+}
+
+@media (max-width: 768px) {
+    .board {
+        flex-direction: column;
+        align-items: center;
+        overflow-x: hidden;
+    }
+
+    .column {
+        width: 100%;
+        max-width: 350px;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+}

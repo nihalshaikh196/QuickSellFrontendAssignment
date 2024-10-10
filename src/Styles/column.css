@@ -1,0 +1,62 @@
+.column {
+    background-color: #F4F5F7;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    min-width: 330px;
+    box-sizing: border-box;
+    margin-right: 16px;
+    height: fit-content;
+}
+
+.column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.segment {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.title-icon {
+    display: flex;
+    align-items: center;
+}
+
+.title-icon img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    margin-right: 8px;
+}
+
+.title {
+    margin-right: 8px;
+}
+
+.ticket-count {
+    margin-left: 8px;
+    background-color: #E4E7EB;
+    color: #6B6F76;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
